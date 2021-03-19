@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Banco</title>
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <main>
+        <h1>Como configurar um banco no SGD</h1>
+        <h2>1- Local de Cobrança</h2>
+        <p>O primeiro passo é configurar a conta do banco no local de cobrança, é a partir destas configurações que o sistema irá se basear para a emissão de boleto/remessa.</p>
+        <p>Você encontra o cadastro de Locais de Cobrança em <strong>Gerenciador do Sistema</strong> > <strong>Cadastro de Locais de Cobrança.</strong></p>
+        <p>Conforme a imagen a seguir:</p>
+        <img src="midia/menu.PNG" alt="menu local cobrança">
+        <p>Clicando vai aparecer a seguinte tela:</p>
+        <img src="midia/local-cobranca1.PNG" alt="tela local cobrança">
+        <h3>1.1 Campos Obrigatórios:</h3>
+        <ul>
+            <li>Código: Escolha o número que irá representar o Local;</li>
+            <li>Descrição: O nome do banco;</li>
+            <li>Cód. Banco: O código real do banco;</li>
+            <li>Cód. Carteira: O código da carteira escolhida</li>
+            <li>Tipo Moeda: Preencha o código correspodente á moeda;</li>
+            <li>Código Agência: Sua agência</li>
+            <li>N° Conta Corrente: Número da conta corrente sem o dígito verificador;</li>
+            <li>DV Ag. Cta. : Dígito verificador da conta;</li>
+            <li>Centro de Custo: O centro de custo padrão do SGD ou outro cadastrado préviamente.</a>).</li>
+        </ul>
+        <p>OBS: Os campos Remessa e Retorno não são obrigatórios, porém é extremamente recomendável que você disponibilize alguma pasta em seu servidor específicamente para armazenar estes dois tipos de arquivo, do contrário o SGD pode acabar salvando seu arquivo em um local indesejado.</p>
+        <p>Com isso você terá os seguintes dados preenchidos:</p>
+        <img src="midia/local-cobranca2.png" alt="tela preenchida">
+        <p>Preenchido os dados corretamente, vamos para o próximo passo.</p>
+        <h2>2- Títulos</h2>
+        <img src="midia/titulos-menu.PNG" alt="menu títulos">
+        <p>Normalmente os bancos dão instruções de quantos títulos são necessários para a validação, mas se caso o seu banco não dê esta orientação é comum que sejam feitos dez.</p>
+        <p>Os campos devem ser preenchidos normalmente, sendo a única diferença o campo "Local de Cobrança", que deve ser preenchido com o local de cobrança recém cadastrado.</p>
+        <p>Se você possuí alguma dúvida referente ao preechimento dos campos, dê uma olhadinha no nosso <a href="titulos.html">tutorial de títulos</a></p>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,157 @@
+Como as cores, a tipografia também faz parte de um site bonito. Mas até que ponto?
+Em todos oras. O onjetivo não é fazer um site bonito? Bonito = Harmonia. Então agora da pra perceber que a missão "Site Bonito" não é tão fácil assim já que temos agora que harmonizar as cores com as letras.
+
+Assim como as cores, as fontes passam sentimentos. Sabe quando tu lê alguma coisa e a voz mental "muda" conforme o modo que está escrito? Tudo tipografia. E isso não se limita apenas a negrito, itálico, aspas ou interrogação, dependendo da fonte escolhida se tem um resultado mais desejado e mais harmonioso.
+
+A Anatomia do Tipo - (no pdf explica melhor)
+A - Altura das maiúsculas: Altura que as letras maiúsculas vão ocupar. Geralmente 
+um pouco menor que a soma da ascendente com a mediana (< B + D) 
+B - Ascendente: Parte das letras maiúsculas que se ergue acima da linha mediana 
+C - Descendente: Parte das letras minúsculas que passa por baixo da linha de base. 
+D - Altura-X: Também chamada de mediana, define o tamanho das letras 
+minúsculas. Tem esse nome, pois se baseia no tamanho da letra x minúscula. 
+E - Corpo: É a soma de quatro medidas: ascendente + altura-x + descendente + 
+espaço de reserva. É o tamanho total da letra. É o valor que escolhemos ao configurar 
+o tamanho da fonte em um texto.
+1 - Arco: presente em letras minúsculas. Uma linha curva que nasce em na haste 
+principal. 
+2 - Barriga: curva em uma letra maiúscula ou minúscula, fechada, ligada à haste 
+vertical em dois pontos. 
+3 - Braço: traço horizontal ou inclinado, ligado à haste vertical principal de uma letra 
+maiúscula ou minúscula. 
+4 - Cauda: apêndice do corpo de algumas letras (g, j, J, K, Q, R), que fica abaixo da 
+linha base. 
+5 - Enlace: a forma como uma haste, linha ou filete se liga a um arremate, a uma 
+serifa ou a um terminal. Pode ser angular ou curvilíneo. 
+6 - Espinha: curva e contracurva estrutural da letra S. 
+7 - Esporão: uma projeção que encontramos nas letras b e G
+8 - Filete: haste horizontal ou inclinada, fechada nas duas extremidades, 
+por duas hastes ou por uma curva. 
+9 - Haste: traço principal de uma letra, geralmente vertical. 
+10 - Olho: espaço em branco, fechado, dentro de uma letra. 
+11 - Orelha: apêndice presente na letra g, que pode ser em gota, botão, 
+bandeira ou gancho. 
+12 - Pé: terminal ou serifa horizontal que arremata uma perna na parte de 
+baixo. 
+13 - Perna: haste vertical ou inclinada com um extremidade livre (ou com 
+um pé) e outra extremidade ligada ao corpo da letra. 
+14 - Serifa: também chamada de apoio ou patilha. Pequenas retas que 
+ornamentam as hastes de alguns tipos. 
+15 - Terminal: forma que arremata a extremidade de uma linha curva de 
+uma letra. 
+16 - Vértice: também chamada de ápice. Formada pela convergência de 
+duas hastes que se encontram. Pode ser pontiagudo, oblíquo, plano ou 
+redondo. 
+
+Categorias de Fonte
+- Serifadas
+Categoria clássica que surgiu lá com Gutenberg. Normalmente são aplicadas a blocos de texto grandes, por seus prolongamentos darem uma percepção de continuidade, já que tendemos a não ler letra por letra e sim a palavra como um todo.
+Fontes com serifa costumam dar um caráter sério ao documento.
+Na internet ou na computação como um todo não é muito comum porque costumam poluir a tela. 
+
+- Sem serifa ou sans-serif
+Mais recentes que a com serifa
+Muito usadas em sites porque dão um ar de clareza, organização e limpeza
+
+- Monoespaçadas
+Derivada das outras duas (exitem monoespaçadas com e sem serifa)
+Espaço horizontal entre as letras é o mesmo para todos os caractéres. (algumas letras como o P, O, K e i ocupam diferentes espaços)
+Visa aumentar a legibilidade ao máximo
+Usado quando pretende-se que o texto seja reproduzido, como no caso de linguagens de programação, terminais ou consoles
+
+- Fontes Script ou Handwriting
+Visam imitar a escrita humana com letras cursivas
+Possuem a mais baixa legibilidade de todos os outros tipos
+Muito usado em títulos ou coisas que se precisa chamar a atenção ou apelo sentimental
+Nunca usar em blocos de texto
+
+- Fonte Display
+Qualquer outro tipo de fonte que não seja nenhuma das outras é Display
+Letras malucas e com bastante efeitos visuais que podem ser feitas de bixos, simbolos pessoas e qualquer outra coisa.
+Basicamente fonte de título ou de marca
+
+Além disso, tem o que chamam de família de fonte, ou no nosso caso como vamos usar CSS pra caramba font-family.
+Tá, mas o que é font-family? Font-family é o que vai deteminar quantas variações alguma letra vai ter.
+
+Exemplo: A fonte Roboto possuí 12 variações dentro da sua família, sendo elas: thin, thin italic, light, light italic, regular, regular italic, medium, medium italic, bold, bold italic, black, black italic.
+
+Entendeu? É a mesma fonte mas com apresentações diferentes, tipo assim. As vezes a gente olha pra uma fonte e acha ela tão daora, mas na real é a mesma fonte que a gente vê o tempo todo só que agora ela tá com um negrito diferente, e isso muda completamente o sentimento que ela passa.
+
+-Colocando fonte na CSS
+
+É bem simples e quem passar mais de 15 minutos mexendo em CSS vai acabar descobrindo sem querer (ou quase). 
+
+body {
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+Pronto! Agora todo o meu body tá com Arial.
+
+É importante fazer o uso de safe-combinations quando se tratar de fontes. Mas o que são safe-combinations caro Berg? Em alguns casos certas famílias de fonte não estarão disponíveis em alguns dispositivos, então para que isso não aconteça é bom fazer como o próprio VScode sugere. O VScode coloca várias fontes de família em sequência, isso para que caso o computador ou celular ou TV em que o site vai abrir tenha a opção de escolher qual das demais fontes o dispositivo reconhece.
+
+Por exemplo: Arial, Helvetica, sans-serif. Nesse caso o dispositivo vai tentar achar a fonte Arial, caso ele não ache ele vai procurar pela Helvetica, e caso ele não ache Helvetica ele vai pelo genérico sem serifa (esse é garantido que vai ter, mas não temos controle qual fonte sem serifa ele vai usar).
+
+E por isso é bom conhecer os tipos de fonte que existem, claro que o VScode é nosso brother e vai sempre tentar nos ajudar, mas não vai te cair a mão aprender também.
+
+Em caso de dúvida de qual safe-combinations usar vai no site da W3Schools ou Googles ;)
+
+
+-Tamanho de Fontes
+
+Absolutas
+cm - centímetro
+mm - milímetro
+in - polegada (inches)
+px - pixel
+pt - ponto (não recomendado para texto em site)
+pc - paica (não recomendado para texto em site)
+
+Relativas
+em - altura M - medida relativa ao tamanho atual da fonte (relativo ao M maiúsculo da fonte como vimos na anatomia)
+ex - altura x - medida relativa ao tamanho atual do x 
+rem - relativo ao root que ta no body
+vw - largura da tela em % (viewport)
+vh - altura da tela
+
+Tem tudo isso pra escolher de tipo de tamanho pra colocar no site MAAAAAss
+A W3C (organização mantenedora do HTML e das CSS) diz que é melhor usar só px e em
+
+
+- Outros estilos
+Para colocar italico, negrito ou sublinhar?
+
+Existem as propriedades font-style e font-weight e também o text-decoration.
+
+font-style é serve basicamente para colocar em negrito. Isso se a font-family ter suporte a itálico.
+
+font-weight como o nome sugere, aumenta o "peso" da letra. Tem vários jeitos de representar o peso: verbalmente (lighter, bold, bolder, normal) ou com numeros (que vão de 100 - 900). Lembrando que a font-family tem que ter suporte aos tamanhos.
+
+text-decoration permite adicionar sublinhado, e também personalizar ele. Por exemplo, colocar um pontilhado, colocar uma curva e também mudar a cor. text-decoration também depende da font-family.
+
+----text-decoration é bem útil para tratar hyperlinks
+
+
+
+- Shorthand
+É um atalho para todas estas configurações de font que vimos nessa página inteira (basicamente). Ao invés de colocar
+
+h1 {
+    font-style:
+    font-weight:
+    font-size:
+    font-family:
+}
+
+Com o Shorthand Font fica assim:
+
+h1 {
+    font: italic bold 2em Arial, Helvetica, sans-serif;
+}
+
+IMPORTANTE: 
+A ordem importa e precisa ser seguida dessa forma
+• font-style 
+• font-variant 
+• font-weight 
+• font-size/line-height 
+• font-family

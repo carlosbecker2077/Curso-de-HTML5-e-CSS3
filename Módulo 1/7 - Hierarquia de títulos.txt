@@ -1,0 +1,22 @@
+Os títulos em HTML são identificados com as tags <h1> <h2> <h3> <h4> <h5> <h6>.
+Cada uma destas tags simbolizam a HIERARQUIA dos títulos em HTML, portanto a tag <h2> precisa estar dentro da tag <h1> e assim por diante. Estas tags de títulos ajudar a identificar os NÍVEIS do texto e melhoram muito a organização da página. Além disso, páginas com títulos hierarquisados ajudam e muito na acessibilidade, já que programas de leitura para cegos identificam os NÍVEIS do texto.
+
+SE LIGA: <h1> não significa letra grande e <h6> letra pequena. Tamanho de fonte nós modificamos depois no CSS da página. Se a página estiver construída de forma certa e hierarquisada conforme o HTML pede, se mudarmos o tamanho da fonte no CSS, muda na página toda e o texto continua fazendo sentido.
+
+Resumindo: <h1> é o assunto principal e <h2> é um sub-assunto do <h1> (como se fosse escopos em blocos de programação).
+
+Não tem problema em utilizar mais de um <h1> na página, claro se a página tiver mais de um assunto principal.
+
+Um comando muito útil na hora de desenvolver um HTML é o LOREM IPSUM, que é um gerador automático de bla bla bla. Ajuda bastante pra saber como o site se comportaria com o conteúdo real.
+
+Exercícios do Fim do PDF
+1-a. Só podemos ter 6
+2-d. <h1> até <h6>
+3-a. <h4>
+4-a. nível 1
+5-d. Lenda. Podemos ter mais de 1 mas precisa ser bem escrito para facilitar a indexação de mecanismos de busca
+6-b. Search Engine Optimization
+7-a. Não, usar apenas se necessário
+8-a. Lorem IPSUM
+9-c. lorem/enter
+10-c. maior/menor

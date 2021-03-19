@@ -1,0 +1,50 @@
+Há algumas maneiras de representar cores:
+Por nome - extremamente limitado e dificilmente vamos ver uma cor absoluta em algum lugar
+
+Por Hexadecimal - Usa um código de 6 digitos para representar uma cor
+    O que é Hexadecimal?
+    Primeiro precisamos saber o que é um número decimal.
+        Números decimais são 0 1 2 3 4 5 6 7 8 9. Ou seja, números que podem compor outros números.
+    Tabela Hexadecimal:
+        0 1 2 3 4 5 6 7 8 9 A B C D E F. viu que deu 16? hexadeca (duh)
+        mas por que A B C e não 11 12 13? porque 11 12 13 não são números decimais e A B C foi o jeito que acharam de fazer o negócio funcionar.
+        0 é equivalente ao mínimo e F ao máximo
+        Ex: #000000 é a representação hexadecimal para preto absoluto
+        mas, pq pô?
+        a cada intervalo de 2 digitos temos a composição do RGB então o preto seria 00 de vermelho, 00 de verde e 00 azul.
+        Ex: #ffffff é a representação hexadecimal do branco pq ta tudo no talo.
+        Ex: #ff0000 é um vermelhaço as ganha.
+        E qual é do sustenido/hastag/jogodavelha? não sei bem, mas acho que é a convenção que diz que a seguir vem um hexadecimal.
+É o jeito mais comum que vemos uma representação de cor na computação.
+
+Por RGB - é tipo o hexadecimal só que sem ser Hackerman. 
+    Uma cor pode ter um valor entre 0 e 255 sendo o 0 nada e 255 tudo. (0 seria 00 e 255 seria ff no hexadecimal)
+    É simples (255, 255, 255) é branco pq R = 255, G = 255 e B = 255
+    Ex: rgb(0, 255, 0) é um verdão.
+
+Por HSL - Significa: Hue, Saturation e Lightness ou Matiz, Saturação e Luminosidade.
+    É um jeito que eu considero bizarro mas seria o jeito que o olho humano vê as cores.
+    hsl(240, 100%, 50%) isso é um azul bem azul. Mas cara, só faz um favor e não usa isso.
+
+E também tem como adicionar transparência na cor usando o parâmetro Alpha.
+    No maravilhoso VScode é fácil, só passar o mouse em cima da cor e rolar a barrinha de transparência.
+    Dá pra perceber que ele adiciona mais uma informação no fim, tanto no hexadecimal, no rgb e no hsl.
+    - No rgb fica rgba
+    - No hsl fica hsla
+    Ex: #0000ff8e É um azul trasparente. Dá pra ver que tem mais um par de números no fim indicando a transparência.
+    Ex: rgba(0, 0, 255, 0.404) É um azul transparente. Dá pra ver que ta escrito rgba e tem um parâmetro 0.404 que é a transparência, sendo 0.000 invisível e 1 a cor plenamente visível (o 1 nem aparece, mas é como se toda cor for 1).
+
+
+E como colocar aquele efeito de dregradê ou fade?
+
+No CSS
+body {
+    background-image: linear-gradient(to right, yellow, red, blue); linear
+    background-image: linear-gradient(to right, yellow 20%, red 2%, blue 20%); linear alterando a presença de cada cor
+    
+    background-image: radial-gradient(circle, yellow, red, blue); --fica redondo
+    
+
+}
+-Tem vários tipos de gradient.
+dá pra dizer até em quantos graus vai ser o giro do gradiente

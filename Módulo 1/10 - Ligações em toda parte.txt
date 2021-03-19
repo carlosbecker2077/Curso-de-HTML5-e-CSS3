@@ -1,0 +1,67 @@
+- Hyperlinks
+Hyperlinks é o conceito mais antigo da linguagem, o motivo para ela existir na verdade.
+A função dos Hyperlinks é desviar o fluxo do site, mais ou menos como portas que deixamos ao nosso usuário. Em palavras mais simples, é quando a gente clica em algo em um site e ele nos redireciona para outro site. Inclusive quando clicamos em algum lugar para baixar algo, também é um hyperlink.
+
+- E a tag?
+a tag é <a> de anchor (âncora)
+<a href="www.linkdosite.com">Esse aqui é o texto onde o cara vai clicar </a>
+
+também é possível pré-definir a linguagem do site a ser redirecionado usando o parâmetro hreflang=""
+<a href="www.linkdosite.com" hreflang="en">Esse aqui é o texto onde o cara vai clicar </a>
+
+- Para controlar de que forma o site vai abrir usamos o parâmetro TARGET com os valores:
+_self - abre o site na guia atual (padrão)
+_blank - abre o site em uma nova guia
+
+<a href="www.linkdosite.com" target="_self">Continuar navegando no site</a>
+<a href="www.linkdooutrosite.com" target="_blank">Ir para outro site abrindo uma nova aba</a>
+
+- Existe um parâmetro interessante que serve para indicar a natureza do link que é o REL="", e os valores aceitos são:
+
+next - indica que o link é a próxima página do documento;
+prev - indica que o link é da página anterior do documento;
+author - indica que o link é da página do autor do documento;
+external - indica que o link é de uma página que não faz parte do site atual;
+nofollow - indica que o link é para um site não endossado
+
+<a href="page2.html" hreflang="en" rel="next">Next Page</a>
+<a href="page2.html" hreflang="en" rel="next" target="_blank">Next Page em outra guia</a>
+
+<a href="https://saintpepsi.bandcamp.com/album/hit-vibes" hreflang="en" rel="external" target="_blank">Bandcamp do Saint Pepsi</a>
+
+- Links internos e externos
+Links internos seriam algo parecido com os exemplos 1 e 2 acima, já que nos levariam para outra página dentro no nosso site. Nesses casos não é necessário especificar todo o endereço do site, apenas o nome do arquivo. Em outros casos como o do terceiro exemplo o chamamos de link externo porque nos leva para fora do nosso site, e nesse caso é necessário digitar a URL completa, incluindo o http ou https.
+
+- Downloads
+O HTML5 tem um atributo(parâmetro) especial para downloads, basta fazer o o uso do atributo download="" seguido do atributo type="" tipo assim:
+
+<a href="https://saintpepsi.bandcamp.com/album/hit-vibes/better" download="better.mp3" type="audio/mpeg">Download Better by Saint Pepsi</a>
+
+- Para cada tipo de arquivo deve se usar o seu type="" equivalente
+
+‣ application/zip
+‣ text/html
+‣ text/css
+‣ text/javascript
+‣ video/mp4
+‣ video/H264
+‣ video/JPEG
+‣ audio/aac
+‣ audio/mpeg
+‣ font/ttf
+‣ image/jpeg
+‣ image/png 
+
+- Exercício 10 lá na pasta ex010
+- Desafios 006 e 005 que eu já fiz.
+
+1-a. hyperlink
+2-d. <a>
+3-c. href
+4-d. hreflang
+5-a. _parent errei o certo era _top
+6-c. target="_external"
+7-a. ../
+8-b. download/type
+9-c. application/pdf
+10-a. type files errei certo é media types

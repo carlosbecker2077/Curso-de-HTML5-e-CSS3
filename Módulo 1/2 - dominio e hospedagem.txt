@@ -1,0 +1,66 @@
+Como outras pessoas vão ver meu site?
+
+Eu preciso de um DOMINIO e HOSPEDAR meu site em um SERVIDOR
+
+Já vimos o que é DOMÍNIO, mas o que é HOSPEDAR?
+- É basicamente a mesma coisa que eu alugar um quarto para os meus arquivos em um
+outro computador, para que através do meu DOMÍNIO as pessoas possam acessar o meu site.
+
+Mas não dá para hospedar o meu site no meu prórpio computador?
+- Não. Na verdade até dá, mas é muito trabalhoso e também muito perigoso.
+
+Simplificando então:
+DOMÍNIO:
+- Nome Único
+- Pago anualmente (grátis para os estudos, mas é beeeem limitado)
+- Vários TLDs (Top Level Domains)
+
+HOSPEDAGEM
+- Espaço para armazenar arquivos
+- Pago mensalmente (e é consideravelmente mais caro que um domínio)
+- Espaço, memória, recursos
+
+Isso é mais pra frente, por enquanto eu vou guardar o meu site apenas no meu prórpio computador.
+
+Aprendendo mais sobre URL (Uniform Resourse Locator) endereço da página
+Localizador de Recurso Único
+
+Todo URL é único e aponta para somente um lugar.
+
+isso é um URL
+https://www.github.com/gustavoguanabara
+
+Um URL tem partes. É como se fosse uma frase quando se estuda gramática de português.
+Toda frase tem sujeito, predicado, predicativo do sujeito, verbo, verbo de ligação...
+E também é assim com URL (mais ou menos né, mas é bem parecido)
+
+Como já vimos, isso é um URL
+https://www.github.com/gustavoguanabara
+
+github.com - É o domínio
+github - É o nome do domínio
+.com - É o TLD
+
+TLDs tem vários tipos
+GTLD - Generic Top Level Domains
+- .net, .gov, .edu, .store
+CCTLD - Country Code Top Level Domain
+- .br, .us, .uk, .ru, .se
+
+www. - é o subdomínio principal
+
+/gustavoguanabara - é o caminho
+
+https:// - é o protocolo
+
+Exercícios referentes ao PDF da aula
+1 - a. por baixo d'agua em cabos submarinos
+2 - b. bits e bytes
+3 - d. modulação
+4 - b. cliente/servidor
+5 - c. 32/128
+6 - a. Domain Name System
+7 - a. dominio - github.com / protocolo - https:// / caminho - /gustavoguanabara
+8 - d. anual/mensal
+9 - b. ccTLD/GTLD
+10 - c. manutenção periódia do cliente

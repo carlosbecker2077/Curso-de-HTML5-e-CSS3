@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas, áudio e vídeo</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, áudio e vídeo</h1>
+    <h2>Imagens que se adaptam ao tamanho da janela</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagenP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagenM.png" type="image/png">    
+        <img src="imagens/imagenG.png" alt="Imagens Flexíveis">
+    </picture>
+    <p>E por quê não?</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pepsiman300.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/pepsiman700.jpg" type="image/jpeg">    
+        <img src="imagens/pepsiman1000.jpg" alt="Pepsiman">
+    </picture>
+    <h2>Trabalhando com áudio</h2>
+    <audio preload="metadata" controls loop autoplay>
+        <source src="audio/Pepsi Man Stage 8 Bit Mega Man Inspired Theme_160k.mp3">
+        <p>Seu navegador não suporta áudio <a href="audio/Pepsi Man Stage 8 Bit Mega Man Inspired Theme_160k.mp3" download="pepsiman-theme.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    
+    <h2>Trabalhando com vídeos</h2>
+    <p>Esse aqui está no meu computador</p>
+    <video width="600px" poster="imagens/battlefront.jpg" controls autoplay>
+        <source src="videos/2021-02-03 14-57-17.mp4" type="video/mp4">
+        <p>Seu navegador não suporta vídeo <a href="videos/2021-02-03 14-57-17.mp4" download="meme.mp4" type="video/mp4"></a></p>
+    </video>
+    <p>Esse aqui é direto do youtube</p>
+    <p>Chega a ser ridículo de fácil, é só colar o "incorporar"</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jyCmnvBbm8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </video>
+</body>
+</html>

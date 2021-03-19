@@ -1,0 +1,78 @@
+-HTML vem de  Hypertext Markup Language
+hypertexto é aquele esquema de clicar em um texto e ele te direcionar para outra página
+
+-CSS vem de Cascading Style Sheets
+
+A linguagem HTML (que não é linguagem de programação) é focada em CONTEÚDO que pode ser:
+- texto
+- imagem
+- vídeo
+- tabela
+
+Já a CSS é focada em DESIGN. Pessoas não acessam sites que não são bonitos
+- cores
+- tamanhos
+- sombras
+- posicionamento
+
+Javascript já é uma linguagem de programação (porque tem estruturas condicionais, loops, vetores, etc)
+que é focada na INTERATIVIDADE do site.
+- menus
+- animações
+- popups
+- validações
+
+Conteúdo em HTML/ Estrutura de Tags
+abertura  conteúdo      fechamento
+ |            |           |
+<h1> Exemplo de Título </h1>
+<p1> Exemplo de Parágrafo </p1>
+
+abertura            parâmetro    valor
+    |                   |          |
+<img src= "imagen.png" alt= "Exemplo de Foto">
+
+Estilo em CSS
+eu pego a tag que eu quero estilizar
+
+h1{
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+}
+
+sendo 
+h1: seletor
+font-family: Arial; : declaração
+Arial; : valor
+font-family : propriedade
+
+Estrutura Básica de um documento HTML
+
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+
+</body>
+</html>
+
+Não é para se preocupar porque tem um macanismo no VS code faz isso pra nós.
+
+exercícios referentes ao PDF "Como funciona HTML e CSS"
+
+1-c. Eu programo em Javascript
+2-b. HyperText Markup Language
+3-a. Cascading Style Sheets
+4-d. 3-1-2
+5-b. meta
+6-b. parâmetro
+7-a. seletor
+8-c. calor
+9-d. !DOCTYPE html
+10-b. <meta charset="UTF-8">

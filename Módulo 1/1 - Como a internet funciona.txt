@@ -1,0 +1,64 @@
+O computador não é como normalmente pensamos "muito inteligente".
+Na verdade ele tá mais para um "burro muito rápido", porque inteligente são os programadores
+que estruturam o código de uma forma que facilita o computadora endender.
+
+Um computador funciona com sinais que são chamados de binários ou binary digit que são
+representados por 0 e 1. Na verdade não são "zerozinhos" e "umzinhos" que andam pelos circuitos,
+são basicamente sinal e não sinal. 1 = sinal e 0 = não sinal.
+
+Cada 0 e cada 1 são chamados de bit. Porém não dá para representar muita coisa só com 0 e com 1,
+mas juntando alguns 0 e 1s temos como, o que é chamado de byte.
+
+1 byte = 8 bits. 1 byte é o mínimo que dá para representar uma informação.
+Ex 01000001 = a
+
+UTF-8
+
+Como a conexão à internet funciona?
+Quando eu me conecto à internet via qualquer dispositivo, eu sou o cliente
+
+Por que eu preciso de um modem para me conectar à internet?
+- Porque computadores usam binários para se comunicar, binários são bits (com sinal = 1, sem sinal = 0)
+
+Esse tipo de comunicação resulta no que é conhecido como Square Wave ou Ondas Quadradas. 
+- Por que quadradas? Porque é esse formato que elas têm, justamente por conta do "sem sinal" e "com sinal"
+a variação é instantânea resultando nesse formato quadrado.
+
+- Tá mas por que do modem?
+
+- Porque os telefones, as torres de rádio, torre de celular e torres de sinal no geral operam com
+ondas Senoidais ou Sine Waves, que é aquele formato mais redondo.
+
+- Entendeu o problema? O computador fala uma língua que as antenas não entendem, então as Square Waves
+precisam ser moduladas para Sine Wave, e as Sine Waves precisam ser demoduladas para a Square Wave.
+
+Daí que vem o nome MO dulação e DEM odulação - MODEM 
+
+
+O que são sites e onde eles ficam?
+São um monte de arquivos HTML e imagens que ficam em servidores, às vezes até ao redor do mundo.
+- Servidores são basicamente outro computador e como todo computador ele possuí um IP.
+Tá mas quando eu vou acessar o Instagram por exemplo, eu não escrevo 202.2321.2312.534:4444
+- Não, nós acessamos um DOMÍNIO. instagram.com é um domínio.
+- Mas o problema nem é esse de ter um nome mais simples de achar. O problema é que são vários IPs
+e esse e IPs mudam toda hora. 1 - porque é um monte de computador e 2 - porque se eu simplesmente
+desconectar o modem da tomada o IP já muda. Então é preciso de alguma coisa que funcione 
+para direcionar até o lugar certo.
+
+DNS - Domain Name System
+Esse processo acontece da seguinte forma: o Cliente (que sou eu) pergunta pro DNS "telefonista, me ligue com o 
+instagram?" e o DNS diz "é pra já meu chapa, toma esse endereço aqui 3.224.2212" e então o Cliente é
+redirecionado para o instagram
+
+
+Exercícios do PDF referente a esta aula
+1 - c. durante a guerra fria
+2 - b. ARPANET
+3 - d. 1969 - login
+4 - a. 4 computadores
+5 - c. NCP
+6 - a. 1973 Turn Point errei b. 1983 - Flag Day
+7 - c. Tim Berners Lee e Vint Cerf errei d. Robert Kahn e Vint Cerf
+8 - c. A liguagem HTML, o protocolo http e o www
+9 - a. 1991/1995
+10 - d. 26 + DF

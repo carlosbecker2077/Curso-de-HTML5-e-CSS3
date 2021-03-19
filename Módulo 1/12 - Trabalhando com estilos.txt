@@ -1,0 +1,105 @@
+O início da aprendizagem de CSS
+
+Se tu não lembra o que é CSS - Cascading Style Sheets - Vou resumir mais ou menos o que é.
+O HTML fica com a parte semântica e de conteúdo e o CSS fica com a parte do estilo e da parte visual. Basicamente é o CSS que vai dar cor e organizar visualmente o conteúdo colocado no HTML.
+
+A técnica mais básica de CSS: CSS inline
+
+<h1 style="font-family="Arial";>Capítulo 1</h1>
+
+-O inline faz uma modificação pontual somente naquela tag e somente neste arquivo.html.
+-O inline sobrescreve os outros CSS que venham a tentar alterar esta tag.
+-O inline não é recomendado para o uso pelos motivos acima além de deixar o código feio e bagunçado.
+
+A técnica mais interessante de CSS: CSS Internal Style
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+
+        }
+        h1 {
+            color: chocolate;
+
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+
+A técnica Internal utiliza um espaço separado para a adição dos CSS no <head>. É um jeito mais claro e mais organizado para fazer o uso do CSS
+
+-O Internal altera apenas o arquivo.html atual
+-Dependendo de quanto CSS for ser usado, o Internal acaba jogando todo o HTML muito para baixo podendo dificultar e confundir.
+-O Internal é sobrescrito pelo inline.
+
+A técnica mais versátil: CSS External Style
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro CSS</title>
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+Esta técnica é a mais prática e a mais aconselhada para mudar o estilo de várias páginas, justamente porque todo o CSS fica concentrado em um lugar apenas e quando for necessário mudar alguma cor, é só mudar a cor no External e todas as outras páginas serão alteradas.
+
+Todo o CSS estará em um arquivo.css e sempre que for necessário adiciona-lo só é preciso adicionar a tag <link> no <head> e fazer a referência para o arquivo desejado. (só não vai me criar 15 arquivos.css que também fode né parceiro)
+
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuação */
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    color: chocolate;
+}
+h1 {
+    color: brown;
+
+}
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+-O External é o melhor para uso em grande escala
+-Afeta todos os arquivos que se referem ao style.css
+-Melhor para padronizar o site
+-Mais organizado que as outras técnicas
+-É sobrescrito pelo Internal e o inline
+-Dá para usar também mais de um <link>, o que vai acontecer é que os dois arquivos.css vão se somar.
+Ex: Quero fazer um cores.css e um letras.css, porque em alguns casos eu quero que algumas páginas tenham cores e letras diferentes.
+
+
+
+Resumindo:
+CSS externo = use sempre que puder
+CSS interno = use para pequenas configurações
+CSS inline = procure evitar
+
+Exercícios do fim do pdf 12
+
+1- c. Cascading Style Sheets
+2- a. Dentro da proprima tag em um parâmetro style=""
+3- b. Dá pra usar but not cool
+4- d. <h1 style="color: blue">Título</h1>
+5- b. dentro do <head>
+6- a. inline prevalece
+7- d. <link>
+8- c. dentro do <head>
+9- b. @charset "UTF-8"
+10- c. externo/inline
+

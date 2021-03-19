@@ -1,0 +1,68 @@
+Formatação de Texto
+
+Nesta aula vamos ver MUITAS tags novas usadas para deixar o texto mais LEGíVEL e com sentido SEMÂNTICO.
+
+No HTML4 quando queríamos dar uma ênfase no texto usavamos a tag <u> que sublinhava o texto ou a <b> que deixava o texto em negrito. O problema é que desse jeito é só um efeito visual que se dá ao texto, só uma forma. O HTML5 inseriu uma filosofia de SEMÂNTICA, ou seja, que dê sentido ao texto.
+Ex: 
+- NO HTML4 
+Juvenal era um sujeito de muita sorte. E já
+começou de pequeno, onde morou na <u>Rua Marquês
+de Lira Filho</u>, um local de fácil acesso ao
+Centro da cidade.
+
+Dessa forma o texto fica somente sublinhado, coisa que ainda podemos fazer hoje, mas é mais recomendado usando as folhas da CSS.
+
+- NO HTML5
+Juvenal era um sujeito de muita sorte. E já
+começou de pequeno onde morou na <address>Rua
+Marquês de Lira Filho</address>, um local de
+fácil acesso ao Centro da cidade.
+
+Dessa forma a tag <address> dá sentido real à coisa, ENDEREÇO. Isso é muito mais útil porque além de destacar o texto, o nosso site entende que aquilo é um endereço e pode até sugerir rotas para se chegar ao lugar. Além de ajudar o Google a indexar nosso site com uma informação relevante sobre o endereço.
+
+-Usar as tags <strong> para deixar negrito e <em> para deixar em itálico.
+-Para demarcar o texto como se fosse uma CANETA MARCA TEXTO usar a tag <mark> e dá para mudar a cor da caneta com as CSS.
+-Tinha a tag <strike> que não existe mais e foi substituída pela <del> que dá aquele efeito de REDACTED, ou se preferir ~digitar algo entre til~ no WhatsApp.
+-Tem a tag <ins> que é tipo "texto inserido", mas ele só sublinha a o texto.
+-Para escrever algo SUBSCRITO ou SOBRESCRITO usar as tags <sub> e <sup>. Que é para deixar o texto como ___ ou ²³²³.
+
+Trechos de Código
+Para escrever códigos de computador no nosso site DEVEMOS usar a tag <code> que tem valor semântico e ajuda ao navegador entender que o nosso site tem códigos fonte. Porém muitas vezes nossos códigos precisam ter suas identações preservadas, e só escrever o código dentro da tag <code> não vai resolver, o texto será escrito todo em uma linha só. Para PRESERVAR a identação do código usamos a tag <pre> que significa que o texto a seguir é PRÉ-FORMATADO e que deverá permanecer do jeito que escrevemos. O IDEAL é utilizar as duas tag juntas.
+Ex:
+<code><pre>
+    for i in [1,2,3,4,5]:
+        if i%2 == 0:
+            print(f'{i} é par')
+        else:
+            print(f'{i}' é ímpar)
+</pre></code>
+
+Citações
+Muitas vezes ao escrever um texto seja ele simples ou mais <q>acadêmico</q> acabamos tendo que fazer o uso de citações, frases que outra pessoa mais gabaritada disse para validar o nosso argumento (rsrs). Em caso de uma citação direta o uso da tag <q></q> (do inglês quote) é suficiente para adicionar "" no nosso texto. Claro que a tag é usada com o sentido semântico e dizer para o Google que tem uma citação.
+Mas e se for o caso de uma citação indireta? (aquela que tem um bloco inteiro destacado com a frase do cara) Utilizamos a tag <blockquote> </blockquote>
+É possível também colocar um URL de uma página através do parâmetro cite:
+Ex:
+    <blockquote cite=""> </blockquote> Mas eu não sei direito como funciona
+
+Abreviações
+Uma parada nova do HTML5 que é muito útil para textos de áreas como a da Tecnologia que possuí muitas siglas e apreviações. Para usar é utilizada a tag <abbr>. Essa tag tem alguns parâmetros que eu vou mostrar logo aqui:
+<p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites</p>
+
+Fazendo isso o texto HTML é escrito e ao passar o mouse em cima um popup aparecer com o nome completo. Além de claro ajudar o Googuel
+
+Inverter texto (segundo o Guanabara é a mais inútil das tags(e eu concordo))
+É só usar a tag <bdo> que significa Bi-directional Override, aí é só completar com o parâmetro dir="" e preencher com "rtl" ou "ltr"
+Ex:
+<p><bdo dir="rtl">Socorram me subi num onibus em marrocos e eu não sei qual é a frase mas era algo assim</bdo></p>
+
+Exercícios do fim do PDF
+1-b. forma/significado
+2-d. tags semânticas
+3-d. <applet> mas acho que pode ser a <strong>| applet é obsoleta mas acho que está certa
+4-a. <tt> errei a certa é aside
+5-a. <strong>/<em>
+6-d. <big> não existe e <small> existe
+7-b. <ins>
+8-d. <sup>/<sub>
+9-b. <blockquote>/ cite=
+10-a. <bdo>/ "rtl"

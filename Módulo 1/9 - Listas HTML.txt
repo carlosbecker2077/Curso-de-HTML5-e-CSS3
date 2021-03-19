@@ -1,0 +1,92 @@
+Listas em HTML
+
+Listas são importantes para a organização da informação, seja ela estruturada de forma ordenada ou desordenada.
+
+- Listas Ordenadas
+Em HTML criamos listas ordenadas usando a tag <ol> </ol>(ordered list) e para delimitar os itens da lista usamos a tag <li> </li>
+
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>item 3</li>
+</ol>
+
+Dessa forma o tipo de enumeração da lista será sempre numérico, mas tem como mudar o tipo de enumeração usando os parâmetro type="" na <ol>.
+O parâmetro type aceita:
+1 - numerico 1,2,3,4,5
+A - Alfabético A,B,C,D,E
+a - Alfabético minúsculo a,b,c,d,e
+I - Algarismos romanos I, II, III, IV, V
+i - Algarismos romanos minúsculos i, ii, iii, iv, v
+
+exemplo:
+<ol type="A">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>item 3</li>
+</ol>
+
+Também é possível indicar a enumeração inicial usando o parâmetro start=""
+<ol type="A" start="D">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>item 3</li>
+</ol>
+
+- Listas Não Ordenadas
+São utilizadas quando a ordem dos itens não interfere na lista. Neste caso utilizamos a tag <ul> (unordered list). O esquema é o mesmo que na outra, precisa do <li> para determinar os itens.
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>item 3</li>
+</ul>
+
+Nesse caso como não temos enumeração, no lugar do número uma bolinha preta e completamente preenchida é criada em cada item.
+É possível mudar o símbolo utilizando os parâmetros dentro do type="":
+- disc padrão. Cria uma bola preta completamente preenchida
+- circle cria uma bola preta vazada
+- square cria um quadrado completamente pintado
+
+- É possível misturar os dois tipos de lista e também misturar vários tipos de parâmetros, porém a cada nova sublista deverá seguira identação (deslocar para a direita).
+
+<ol>
+    <li>Item 1</li>
+    <ul>
+        <li>Item 1.1</li>
+        <li>Item 1.2</li>
+        <li>item 1.3</li>
+    </ul>
+    <li>Item 2</li>
+    <li>item 3</li>
+</ol>
+
+---Exercício Proposto
+Crie seu próprio código e faça a seguinte lista aninhada com seus jogos favoritos de
+acordo com a plataforma. (será o arquivo 9 - lista_jogo.html nessa pasta)
+
+-Lista de Definições
+É basicamente como em um dicionário, tem o termo e a descrição desse termo. Não possui demarcação ou enumeração.
+Para criar uma lista de definições usamos as tags <dl> e </dl> (definition list), para cada termo utilizamos <dt> </dt> (definition term) e para cada descrição <dd> </dd> (definition description)
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação usada para a criação de conteúdo em sites</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação usada para controlar os estilos de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para manipular comportamentos de sites</dd>
+</dl>
+
+Exercícios do fim do PDF
+
+1-c. Lista semi ordenada
+2-c. <li>
+3-a. <ol></ol>
+4-d. <li>
+5-c. type/start
+6-d. X
+7-b. square
+8-c. <dl> </dl>
+9-a. definition term
+10-b. definition description

@@ -1,0 +1,81 @@
+Seu site precisa se adptar ao dispositivo, e quem mais sofre com isso são as imagens. Não adianta usar uma imagen gigante para uma tv sendo que no celular faz ficar ridículo. Dá pra diminuir o tamanho visual da imagem usando o CSS, mas isso não diminui o tamanho em bytes da foto, e um site muito pesado é menos recomendado pelo google.
+
+-Imagens Flexíveis
+Para isso precisamos gerar 3 imagens de tamanho diferentes usando o GIMP. Uma imagen de 300px outra de 700x e outra de 1000px e conhecer as tags <picture> e <source>
+
+a tag picture serve para concentrar todas as outras fontes de imagem que serão usadas nesse momento
+
+<picture>
+    <img src="foto-g.png" alt="a imagen flexível funciona">
+</picture>
+
+desse modo a imagem grande será a padrão
+
+<picture>
+    <souce media="(max-width: 1050px)" scrset="foto-m.png" type"image/png">
+    <img src="foto-g.png" alt="a imagen flexível funciona">
+</picture>
+
+source recebe 3 atributos:
+-type recebe o media type
+-srcset indica o nome da imagen que será carregada quando o limite px chegar
+-media indica o tamanho até que a imagem do scrset vai carregada
+
+IMPORTANTE: A ordem dos tamanhos é a menor em cima dos maiores.
+
+-Adicionando Áudio no Site
+É bastante simples, o que diferencia das imagens são alguns controles diferentes e alguns <source> que temos que adicionar a mais. Perceba que ao invés de <picture> adicionamos a tag <audio>
+
+<audio preload="metadata" controls autoplay loop>
+    <source scr="pasta/audio.mp3" type="audio/mpeg">
+    <source scr="pasta/audio.wav" type="audio/wav">
+    <source scr="pasta/audio.ogg" type="audio/ogg">
+    <p>Seu navegador não suporta áudio <a href="pasta/audio.mp3" download="pasta/audio.mpeg" type="audio/mpeg"></a></p>
+</audio>
+
+Vamos analisar o que cada atributo da tag <audio> faz:
+-preload
+    indica se o áudio será pré-carregado ou não e aceita três valores:
+    -metadata
+        vai carregar apenas as informações sobre o arquivo (tamanho, duração e outras paradas)
+    -none
+        não vai carregar absolutamente nada até que o usuário clique no botão play ou um script inicie a reprodução
+    -auto
+        padrão. vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play
+-controls
+    vai apresentar o player na tela. Caso não seja colocado na tag <audio>, o controle será  transparente e o usuário não poderá interagir com ele.
+-autoplay
+    inicia a reprodução assim que a página for carregada (se adicionada).
+-loop
+    faz com que o áudio seja repetido eternamente quando acabar.
+
+colocar o formato favorito no topo pois ele será o primeiro a ser carregado. É bom colocar um parágrafo caso todos os outros formatos falhem. Acho que dá até pra colocar uma imagem fazendo um "ops xD"
+
+-Com vídeo
+É mais ou menos a mesma coisa que o áudio por ter o controlador também, porem com alguns parâmetros diferentes como width e poster
+-width controla o tamanho visual do vídeo
+-poster é a imagen que fica antes de dar o play, a famosa thumbnail
+depois vem as opções do controlador, que são as mesmas do áudio. Ainda não sei muito bem mas é provável que tenha algumas opções diferentes que no áudio, mas as mais comum são iguais.
+
+Ex de inserção de vídeo:
+<video width="600px" poster="imagens/battlefront.jpg" controls autoplay>
+    <source src="videos/2021-02-03 14-57-17.mp4" type="video/mp4">
+    <p>Seu navegador não suporta vídeo <a href="videos/2021-02-03 14-57-17.mp4" download="meme.mp4" type="video/mp4"></a></p>
+</video>
+
+
+
+Com tudo que foi visto até aqui, dá pra fazer os desafios 007, 008, 009. Então vai lá e faz!!
+
+Questões referente ao pdf da aula 11
+
+1- c. Use sempre a imagem com qualidade e resolução balanceadas
+2- b. Diminuição na taxa de retenção e possível penalização em mecanismos de busca
+3- a. <picture>, <source> e <img>
+4- a. media, type e srcset
+5- d. <audio>
+6- c. player
+7- a. o arquivo de áudio não será carregado até que o visitante aperte o Play errei certo era a b
+8- a. <video>
+9- a.  .mov .mp4 .avi .webm errei cero é a c
+10- b. <iframe>

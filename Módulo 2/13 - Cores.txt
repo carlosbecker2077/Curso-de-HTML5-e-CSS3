@@ -1,0 +1,82 @@
+- Psicologia das cores
+
+Cores são mais importantes do que parecem para um site.
+Pessoas tendem a ficar mais tempo navegando sites bonitos e tendem a comprar produtos com cores agradaveis.
+Sites bonitos passam mais confiança para o usuário e confiança vende mais.
+Cores são responsáveis por 90% da decisão do consumidor. Se serve para compra, serve também para site.
+
+Um grande estudioso na área é Neil Patel.
+
+APRENDA MAIS. A seguir, vou colocar alguns links para artigos
+onde você vai poder ver mais sobre a emoção das cores. Consuma
+esses conteúdos para entender melhor o poder das cores.
+➡ https://rockcontent.com/blog/psicologia-das-cores/
+➡ http://www.matildefilmes.com.br/psicologia-das-cores-guiaavancado-para-profissionais/
+➡ https://neilpatel.com/br/blog/psicologia-das-cores-comousar-cores-para-aumentar-sua-taxa-de-conversao/
+
+Importante dizer que em muitos casos estas orientações não são lei portanto é sempre bom ter bom senso sobre a decisão de cores. Muitos sites que segundo os estudos, não possuem cores apropriadas deram certo.
+
+-O Círculo Cromático
+ 
+ No PDF da pra ver melhor.
+
+O círculo possuí 12 cores.
+Se desenharmos um triângulo equilátero temos as cores primárias. 3
+Se desenharmos um triângulo equilátero invertido temos as cores secundárias. 3
+E se ligarmos os pontos onde nenhum dos triâgulos toca, temos as cores terciárias. 6
+
+Só pra lembrar pq pra mim é foda que eu sou daltnico^:
+
+Cores primárias: Amarelo, Vermelho e Azul
+Cores Secundárias: Laranja, Violeta e Verde
+Cores Terciárias: Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado, Azul-arroxeado, Azul-esverdeado e Amarelo-esverdeado
+- Repare que a nomenclatura certa para cores terciárias é sempre o nome da cor primária antes e a secundária depois por razões de classificação.
+
+
+- Temperatura
+
+Cores quentes criam a sensação de calor, proximidade ( ͡° ͜ʖ ͡°)
+
+Cores frias estão associadas com calma, frescor e tranquilidade.
+
+- Harmonia
+Cores complementares: são cores com maior contraste entre sí. Descobrimos traçando uma linha para o lado oposto de uma cor no círculo. Uma cor primária sempre terá uma secundária como contraste e vice-versa. No caso das terciárias, sempre teremos outra terciária como contraste.
+
+Cores análogas: Cores com pouco contraste entre sí. Descobrimos pegando uma cor à esqueda e outra à direita da cor escolhida.
+
+Da pra combinar análoga + complementar pra dar um efeito ainda maior para a cor contraste
+
+Cores análogas relacionadas: escolhemos 2 análogas e pulamos a terceira (para qualquer direção). O resultado são cores análogas com um maior contraste entre sí.
+
+Cores intercaladas: nem sempre funciona. escolhemos uma cor e pulamos sempre uma.
+
+Cores triádicas: mesmo esquema do triângulo equilátero só que um quadrado. Essa técnica garante sempre 3 cores bem diferentes entre sí.
+
+Cores em quadrado: mesmo esquema do triângulo. Permite escolher 4 cores com contraste razoável entre sí.
+
+Cores tetrádicas: escolhemos 2 análogas e as outras 2 que são seus contrastes, formando um retângulo. 
+
+Monocromia: Variação de brilho e saturação de uma cor. Contraste mínimo já que é a mesma cor só mais clara ou mais escura. Efeito degradê (fade).
+
+ ESTE SITE É MUITO LEGAL E IMPORTANTE PARA MACAQUEAR PALETA DE CORES GUARDE POR FAVOR EU QUE TO DIZENDO PRA MIM MESMO CARA GUARDA ISSO QUE VAI TE POUPAR MUITO TRABALHO.
+ https://color.adobe.com/pt/
+
+ DA PRA CRIAR UMA PALETA DE CORES USANDO UMA IMAGEM BASE. e claro da também pra eu aplicar o conhecimento acima e criar a minha própria, mas né eu não fazer isso. Não só pelo daltonismo mas também por preguiça. Mas claro que o daltonismo tem um grande papel nisso.
+
+tem também o https://paletton.com que mostra até exemplos e sugestões de como ficaria o site
+
+https://coolors.co/272838-5d536b-7d6b91-989fce-347fc4
+
+
+Exercícios refentes ao PDF 13
+
+1- c. azul
+2- b. roxo
+3- b. azul
+4- d. paleta de cores
+5- c. amarelo-arroxeado
+6- a. roxo
+7- b. complementares/análogas
+8- a. rgbl()
+9- a. matiz, saturação e luminosidade
+10- d. linear-gradient e radial-gradient

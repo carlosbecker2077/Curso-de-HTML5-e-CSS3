@@ -1,0 +1,26 @@
+Anotando algumas tags que vi até agora, mais para testar o meu conhecimento.
+
+h1 : <h1> </h1>
+É o título basicamente. É utilizado no <body>
+
+hr : <hr>
+Essa é a tag Horizontal Row, que desenha uma linha horizontal na tela. Essa tag não tem fechamento como a maioria das outras, para usar é só colocar <h1> e pronto.
+
+p1 : <p1> </p1>
+Essa é a tag de parágrafo, é onde o conteúdo do site será inserido a maioria das vezes.
+
+a : <a> </a>
+Esse é eu não sei bem porque eu ainda não estudei, mas já cheguei a usar. É o bloco que usamos para colocar os hiper textos.
+ <a href="https://www.loc.gov/marc/bibliographic/">Marc 21.</a> </p>
+
+Perguntas referentes ao PDF 4
+1-d. Word
+2-a. Microsoft
+3-c. Sim, mas tem que instalar uma extensão
+4-d. Word Wrap
+5-a. Arquivo > Salvar automaticamente
+6-c. index.html
+7-a. ! + enter
+8-d. <hr>
+9-a. <p>
+10-c. <head>

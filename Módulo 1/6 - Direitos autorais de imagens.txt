@@ -1,0 +1,58 @@
+
+-Direitos Autorais em Imagens   
+parte 1 da aula foi sobre direitos autorais em imagens, nada de mais, só pra não achar que dá pra sair colocando qualquer foto ou imagen no meu site e foda-se é isso aí. 
+
+Um jeito fácil e o mais comum de procurar imagens sem direitos autorais é no próprio google images. Vai no google imagens e pesquisa a imagen que tu(ou eu) queria achar. Vai ter um esquema de ferramentas>direitos de uso>creative commons. A busca fica bem mais limitada é claro, mas é melhor que tomar um eventual processo. Pego como dica pra mais tarde katsushika hokusai, que tem várias obras legais.
+
+Tem alguns sites que podem ser uteis na busca de imagens sem copyright
+UnSplash
+Pexels
+FreePik
+Rawpixel
+Pixabay
+Libreshot
+Wikimedia Commons - coisa da wikipédia
+
+-Parte 2 Formatos mais comuns
+     
+O JPEG é um formato mais compactado, portanto tem uma qualidade pior e não permite transparência.
+    
+O PNG é um formato que tem uma qualidade melhor (fica menos pixelada no zoom) e permite transparência e só deve ser usado na necessidade de ser transparente.
+    
+E também o gif que tem uma péssima qualidade, um tamanho em KB alto, não permite transparência, mas permite animação.
+      
+-Usando o GIMP para redimensionar imagens      
+Não tem muito mistério não, é bem fácil na real. Abrir imagen com GIMP > no menu do topo> imagen > redimencionar > colocar o tamanho > da enter > arquivo > export as > coloca o nome da imagen + o tamanho modificado (não é necessário fazer isso, é mais por uma conveção mesmo). 
+
+-Tamanho das imagens
+É importante não colocar imagens de um tamanho gigante no site, já que imagens com dimensões ex: 1920x1080 podem ter até 3MB, o que torna o site pesado para carregar. Além do que o próprio Google não gosta de sites pesados, ele prefere que sites mais leves apareçam primeiro na busca. Mas claro, não é pra sair colocando um monte de borrão no site só pra ser mais leve, ajuste sempre de acordo com a situação.
+
+Parte 3 - Inserindo imagens no HTML
+Para inserir imagens em um HTML, usamos a tag <img src="" alt="">. Esta tag possuí dois parâmetros src (source ou fonte) e alt (ou texto alternativo).
+
+O src é o caminho da imagem que pode ser só o nome da imagem se ela estiver na pasta raiz (junto com o index), de outra pasta (neste caso tem que colocar todo o caminho c:\\..) ou da internet (nesse caso tem que colocar o URL da imagem).
+
+O texto alternativo serve para quando a imagen não é carregada corretamente, então aparece um texto dizendo o que era pra ser. Mas não é só isso, o texto alternativo serve também para indexar as imagens do meu site, o que significa que quando alguém pesquisar algo no Google, ele procura também por nomes alternativos das imagens. Outras funções do texto alternativo são para eu mesmo saber que imagem é aquela do meu código (então é sempre bom descrever de modo mais preciso), e serve também para usuários deficientes, porque o software que lê os sites lê também o texto alternativo, o que ajuda o usuário a ter uma idéia do que se trata a imagem. Então NADA de colocar o texto alternativo como "foto".
+
+- Colocando Favicon no site
+Favicon é aquele iconezinho que fica na aba do site sabe? Se chama Favicon porque é o que fica salvo quando colocamos o site como favorito (suposição minha), e se é ícone é imagem, e se é imagem tem formato.
+
+Os formatos de Favicon podem ser PNG, ICO ou SVG, sendo o melhor SVG e o mais indicado ICO, mas por quê? SVG é um formato muito bom, mas nem todos os navegadores possuem suporte a este formato, já o ICO é o mais comum e suportado por todos os navegadores.
+
+Para adicionar um Favicon no site, precisamos adicionar a tag 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> no <head> geralmente logo acima do <title>. É bem simples de fazer aqui no VSCode, só escrever link e selecionar a sugestão link:favicon que ele monta a tag prontinha. Só é necessário modificar o parâmetro href caso o nome do ícone seja diferente ou se encontre em outro diretório, mas o mais indicado é colocar juntamente do index.html e ter o nome de favicon.
+
+---Desafio desbloqueado! Agora podemos (e devemos) fazer os desafios 01 ao 03.
+
+Questionário referente ao PDF 06 - Imagens e Favicon
+
+1 -b. não devemos usar nenhuma mídia sem prévia permissão do criador. 
+2 -c. compre e use quantas vezes quiser
+3 -d. Pexels
+4 -a. JPEG
+5 -d. PNG
+6 -a. Joint Photographics Expert Group
+7 -c. balancear a experiência
+8 -d. <img>
+9 -a. src
+10 -c. link e head
