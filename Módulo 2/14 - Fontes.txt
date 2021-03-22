@@ -155,3 +155,11 @@ A ordem importa e precisa ser seguida dessa forma
 • font-weight 
 • font-size/line-height 
 • font-family
+
+- Usando fontes externas
+As vezes a fonte que tu quer não existe no navegador, nesses casos é preciso importar uma fonte da internet. O melhor lugar para achar fontes e Google Fontes.
+
+É só copiar o embed do CSS pra dentro do código e pronto, ta funcionando. Não precisa colocar vários imports para cada fonte, dá pra juntar tudos em um único import.
+
+IMPORTANTE: Imports devem ser  a primeira coisa depois do seletor global ou * {}.
+
