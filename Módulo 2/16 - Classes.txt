@@ -1,0 +1,23 @@
+Classe:
+    também serve para diferenciar um seletor dos demais, porém a diferença dele é agrupar vários seletores sob um mesmo estilo. É como se fosse o id mas para mais de um componente.
+    Apesar de usar varios IDs funcione, não é o mais indicado. O certo é usar class
+
+No HTML:
+<h1 class="destaque">Principal</h1>
+<h1> </h1>
+<h1> </h1>
+<h1> </h1>
+<h1> </h1>
+
+No CSS
+
+.destaque {
+    ....
+}
+
+diferente do id aqui não é permitido usar a tag antes.
+Até porque pode se usar a mesma classe para várias tags diferentes
+
+*É possível utilizar varias classes em uma tag
+** É possivel utilizar class e id na mesma tag
+*** A prioridade é pelo id depois classe e depois geral

@@ -1,0 +1,5 @@
+para usar alinhamento nos textos se usa a propriedade css text-align.
+
+temos as opções de left, right, center e justify
+
+Uma coisa legal também é a propriedade text-indent que vai dar ao texto um recuo, tipo de início de parágrafo.

@@ -1,0 +1,21 @@
+Pseudo-elementos são elementos que podem ser adicionados através do css
+A gente consegue adicionar conteúdo na página através de css.
+
+Ainda não vi muito a utilidade disso por enquanto, mas sei la.
+
+- adicionando um esterisco antes e depois de um link
+
+a::before {
+    content: '* ';
+}
+
+a::after {
+    content: ' *';
+}
+
+isso vai gerar o seguinte efeito em todos os links da página:
+
+* clique aqui *
+
+eu posso colocar qualquer coisa até emojo.
+

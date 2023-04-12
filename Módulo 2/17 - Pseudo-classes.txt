@@ -1,0 +1,21 @@
+Pseudo-classes
+
+Pseudo-classes são configurações de estado de um componente. Como se fosse os eventos no Delphi.
+
+quando eu passar o mouse
+quando estiver habilitado
+coisas assim
+
+para eu acessar a pseudo-classe de algum componente eu uso seguinte notação:
+
+div:pseudoclasse
+
+então
+
+div:hover {
+    ....
+}
+
+as coisas em .... serão feitas somente quando eu passar o mouse
+
+

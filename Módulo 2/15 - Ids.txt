@@ -1,0 +1,21 @@
+Ids e classes em HTML
+
+ID:
+    serve para diferenciar um seletor dos demais.
+    por exemplo: eu tenho 5 tags h1 no meu body mas uma delas é o meu título principal e precisa ser diferente dos demais, posso transformar todos os outros h1 em h2? Posso. Mas não é necessário sacrificar a semântica do HTML apenas para mudar a forma em que o conteúdo esta sendo apresentado.
+    Ao invés disso usamos IDs para diferenciar o h1 principal dos demais h1
+
+No HTML:
+<h1 id="principal">Principal</h1>
+<h1> </h1>
+<h1> </h1>
+<h1> </h1>
+<h1> </h1>
+
+No CSS
+
+h1#principal {
+    ....
+}
+
+o h1 na frente não é obrigatorio, mas convenção. Pode ser util saber que tag é.

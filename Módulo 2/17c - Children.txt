@@ -1,0 +1,12 @@
+Children é quando eu quero aplicar um estilo a coisas que estão dentro de uma tag
+
+então por exemplo
+
+
+.div_especial > p {
+    color: blue:
+    font-weigth: bold;
+}
+
+isso diz que todos os p dentro da classe div-especial serão azuis e negrito
+MAS SOMENTE OS QUE SÃO PERTENCENTES DA CLASSE P
